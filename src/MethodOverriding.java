@@ -6,8 +6,9 @@
 }
   class Engineer extends employee  {
     void display(){
-	super.display();
+	
          System.out.println("Name of class is Engineer");
+		 super.display();
     }
 /*
 	void message(){
