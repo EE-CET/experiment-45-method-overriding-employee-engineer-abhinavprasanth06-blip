@@ -1,16 +1,25 @@
-class Employee {
-   
+// Use this editor to write, compile and run your Java code online
+ class employee {
+    void display(){
+        System.out.println("Name of class is Employee");
+    }
 }
-
-class Engineer extends Employee {
-    // TODO: Override display() method
-    // 1. Print "Name of class is Engineer"
-    // 2. Call super.display() to print the parent's message
+  class Engineer extends employee  {
+    void display(){
+	
+         System.out.println("Name of class is Engineer");
+		 super.display();
+    }
+/*
+	void message(){
+		display();
+		super.display();
+ 	}
+*/
 }
-
-public class MethodOverriding {
-   
-        // TODO: Create an Engineer object
-        // TODO: Call the display() method
-    
+public class MethodOverriding{
+    public static void main(String[] args) {
+       Engineer e1 = new Engineer();
+       e1.display();
+    }
 }
