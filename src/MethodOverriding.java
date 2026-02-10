@@ -19,6 +19,6 @@
 public class MethodOverriding{
     public static void main(String[] args) {
        Engineer e1 = new Engineer();
-       e1.message();
+       e1.display();
     }
 }
